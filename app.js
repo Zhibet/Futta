@@ -8,7 +8,7 @@ app.engine('ejs', ejsMate);
 app.set('view engine', 'ejs'); 
 
 app.get('/',(req,res)=>{
-    res.send('the set up is live')
+    res.render('home')
 })
 
 const port = 3000;
