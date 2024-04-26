@@ -1,21 +1,3 @@
 body{
   background-color: antiquewhite;
 }
-
-@media (max-width: 600px) {
-    /* Media query for screens smaller than large (992px) */
-    nav {
-      width: 80%;
-      margin: auto;
-    }
-  }
-  @media (min-width: 650px) {
-    /* Media query for screens smaller than large (992px) */
-    nav {
-      width: 50%;
-      margin: auto;
-      height: 50px;
-      display: flex;
-      align-items: center;
-    }
-  }
